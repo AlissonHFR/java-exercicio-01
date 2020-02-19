@@ -8,7 +8,7 @@ public class Main {
 	
 	private static Scanner ler;
 
-	public static void leitura(String args[]){
+	public static void leitura(){
 		
 		ler = new Scanner(System.in);
 		
@@ -31,16 +31,20 @@ public class Main {
 				
 				i++;
 			}
-			 
+			
+			calculo c = new calculo(n1,n2,n3,n4);
 			 
 			 
 		
 		
 	}
 	
-	public static void calculo() {
+	public static void calculo(int n1,int n2,int n3,int n4) {
 		
 		int maior, menor;
+		
+		maior = leitura();
+		
 		
 		if(maior > 50) {
 			System.out.println("O menor valor é: " + menor);
