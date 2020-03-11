@@ -3,9 +3,6 @@ package valores;
 import java.util.Scanner;
 
 public class Main {
-
-	
-	
 	private static Scanner ler;
 
 	public static void leitura(){
@@ -33,10 +30,6 @@ public class Main {
 			}
 			
 			calculo c = new calculo(n1,n2,n3,n4);
-			 
-			 
-		
-		
 	}
 	
 	public static void calculo(int n1,int n2,int n3,int n4) {
@@ -47,15 +40,13 @@ public class Main {
 		
 		
 		if(maior > 50) {
-			System.out.println("O menor valor é: " + menor);
-			System.out.println("O maior valor é: " + maior);
+			System.out.println("O menor valor Ã©: " + menor);
+			System.out.println("O maior valor Ã©: " + maior);
 			System.out.println("Valor muito alto");
 		}else {
-			System.out.println("O menor valor é: " + menor);
-			System.out.println("O maior valor é: " + maior);
+			System.out.println("O menor valor Ã©: " + menor);
+			System.out.println("O maior valor Ã©: " + maior);
 			System.out.println("Valor normal");
 		}
-		
 	}
-
 }
